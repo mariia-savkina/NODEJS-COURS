@@ -1,0 +1,15 @@
+{
+  "name": "panenco-node-course",
+  "version": "1.0.0",
+  "description": "Panenco Node Course API",
+  "main": "src/server.js",
+  "author": "mariia",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node --es-module-specifier-resolution=node src/server.js"
+  },
+  "type": "module"
+}
