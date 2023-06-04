@@ -5,6 +5,7 @@ export class App {
   constructor() {
     // Init server
     this.host = express();
+    this.host.use(express.json());
 
     this.host.get("/", (req, res, next) => {
       res.send("Hello Mariia!");
